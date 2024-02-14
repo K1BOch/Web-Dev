@@ -7,10 +7,18 @@
 #additionalInfo{
     color:#555;
 }
+header {
+    font-size: 15px;
+    padding-top: 10px;
+    background-color: black;
+    color:grey;
+    padding-left:40px;
+    padding-bottom: 20px;
+}
 .container{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(135deg, #153677, #4e085f);
+    background: white;
     padding: 10px;
 }
 .todo-app{
@@ -22,7 +30,8 @@
     border-radius: 10px;
 }
 .todo-app h2{
-    color: #002765;
+    font-size: 35px;
+    color:black;
     display: flex;
     align-items: center;
     margin-bottom: 20px;
@@ -38,7 +47,6 @@
     align-items: center;
     justify-content: space-between;
     background: #edeef0;
-    border-radius: 30px;
     padding-left: 20px;
     margin-bottom: 25px;
 }
@@ -55,12 +63,11 @@ input{
 button{
     border: none;
     outline: none;
-    padding: 16px 50px;
-    background: #ff5945;
+    padding: 16px 20px;
+    background: rgb(55, 55, 204);
     color: #fff;
     font-size: 16px;
     cursor: pointer;
-    border-radius: 40px;
 }
 
 #showMore{
