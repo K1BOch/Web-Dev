@@ -5,6 +5,7 @@ body {
 
 }
 
+
 header {
     top: 0;
     font-size: 14px;
@@ -33,14 +34,30 @@ a:hover {
 }
 
 button {
-    color: white;
-    background-color: #0067b8;
+    color: rgb(105,105,105);
+    align-items: center;
+    background-color: white;
     transition: background-color 300ms ease 0s;
     border: none;
-    font-size: medium;
+    font-size: 40px;
     font-weight: bold;
     padding: 10px;
+    display: inline-flex; 
+    vertical-align: top; 
+    margin-left: 10px; 
 }
+.menu-item{
+    display: inline-flex;
+    vertical-align: top;
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+}
+button img {
+    width: 35px; 
+    height: auto;
+    margin-right: 5px; 
+  }
 
 button:hover {
     background-color: #085189;
