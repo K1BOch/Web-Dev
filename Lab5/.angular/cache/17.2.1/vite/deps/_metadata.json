@@ -1,0 +1,34 @@
+{
+  "hash": "ab55733f",
+  "configHash": "9dee887c",
+  "lockfileHash": "fd4d3caf",
+  "browserHash": "eebf5806",
+  "optimized": {
+    "@angular/core": {
+      "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "54f0d103",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "242e7a39",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "d476549c",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-TTIF2NV6": {
+      "file": "chunk-TTIF2NV6.js"
+    },
+    "chunk-IIIZAWKF": {
+      "file": "chunk-IIIZAWKF.js"
+    }
+  }
+}
