@@ -1,0 +1,5 @@
+nums = input().split()
+nums = list(map(int, nums))
+max = max(nums)
+index = nums.index(max)
+print(max, index)
